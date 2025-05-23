@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="google" content="notranslate" />
+  <title>Prevent Translation Example</title>
+  <style>
+    .notranslate {
+      unicode-bidi: bidi-override;
+      direction: ltr;
+    }
+  </style>
+</head>
+<body>
+
+  <p translate="no" class="notranslate">
+    STOP  
+    In Gaza, famine and suffering are growing every day. Children and families face severe shortages of food, medicine, and basic necessities. The ongoing blockade and conflict have made life unbearable. It’s time to STOP the suffering and bring urgent humanitarian aid to those in desperate need.
+  </p>
+
+</body>
+</html>
